@@ -6,9 +6,9 @@
 
 ###Contacts
 * Location: Russia, Volgograd.
-* <img alt = "Phone" src = "pho.png" width = "25px"> 8-919-799-1561, 8-917-648-8980
-* <img alt = "Discord" src = "dic.jpg" width = "25px"> rtinit \#7770
-* <img alt = "Email" src = "gmail.png" width = "25px"> fizrukaleksikov@gmail.com
+* <img alt = "Phone" src = "https://github.com/RTinIT/rsschool-cv2/blob/gh-pages/pho.png" width = "25px"> 8-919-799-1561, 8-917-648-8980
+* <img alt = "Discord" src = "https://github.com/RTinIT/rsschool-cv2/blob/gh-pages/dic.jpg" width = "25px"> rtinit \#7770
+* <img alt = "Email" src = "https://github.com/RTinIT/rsschool-cv2/blob/gh-pages/gmail.png" width = "25px"> fizrukaleksikov@gmail.com
 
 ---
 ###About me
