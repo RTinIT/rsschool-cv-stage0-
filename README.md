@@ -1,1 +1,2 @@
-# rsschool-cv2
+# rsschool-cv
+https://RTinIT.github.io/rsschool-cv/cv
