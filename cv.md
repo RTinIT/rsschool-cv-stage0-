@@ -26,7 +26,7 @@ I'm an entury-level specialist and I don't have work experience, but my goal is 
 
 ---
 
-###Code Exemple
+###Code Example
 
 ```javascript
 // The Binary Search. 
