@@ -13,7 +13,7 @@
 ---
 ###About me
 
-I'm an entury-level specialist and I don't have work experience, but my goal is to become the best in this direction. I'm constantly in search of new opportunities for self-study. I'm purposeful, fast-learning, stress-resistant, responsible, honest and open.
+I'm an entury-level specialist and I have no work experience, but my goal is to become the best in this direction. I'm constantly in search of new opportunities for self-study. I'm purposeful, fast-learning, stress-resistant, responsible, honest and open.
 
 ---
 
