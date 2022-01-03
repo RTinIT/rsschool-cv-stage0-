@@ -72,15 +72,15 @@
                     <span class="comments"> // Declaring a variable mid. </span>    
                         <span class="var">let</span> <span class="varname">mid</span>;
                     <span class="comments"> // Using while to compare with Element. </span> 
-                        <span class="circle">while</span> ( <span class="varname">low</span>  <= <span class="varname">high</span> ) {
+                        <span class="circle">while</span> ( <span class="varname">low</span> &lt;= <span class="varname">high</span> ) {
                     <span class="comments"> // Writing  a Formula to find the Middle of the Array. </span>
                             <span class="varname">mid</span>  = <span class="method">Math</span>.<span class="method">round</span>((<span class="varname">high</span>  - <span class="varname">low</span>)/2) + <span class="varname">low</span>;
 
                             <span class="circle">if</span> (<span class="varname">element</span> === <span class="varname">numbers</span>[<span class="varname">mid</span>]) {
                                 <span class="circle">return</span> <span class="varname">mid</span>;            
-                            } <span class="circle">else if</span> (<span class="varname">element</span> < <span class="varname">numbers</span>[<span class="varname">mid</span>]) {
+                            } <span class="circle">else if</span> (<span class="varname">element</span> &lt; <span class="varname">numbers</span>[<span class="varname">mid</span>]) {
                                 <span class="varname">high</span> = <span class="varname">mid</span> - 1;
-                            } <span class="circle">else if</span> (<span class="varname">element</span> > <span class="varname">numbers</span>[<span class="varname">mid</span>]) {
+                            } <span class="circle">else if</span> (<span class="varname">element</span> &gt; <span class="varname">numbers</span>[<span class="varname">mid</span>]) {
                                 <span class="varname">low</span> = <span class="varname">mid</span> + 1;
                             }
                         }
