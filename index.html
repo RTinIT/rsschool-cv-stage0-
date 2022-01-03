@@ -4,31 +4,122 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>RSSchool-CV</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <div id="menu-btn" class="fas fa-bars"></div>
-
-        <nav class="navbar">
-            <a href="#" data-text="home">home</a>
-            <a href="#" data-text="about">about</a>
-            <a href="#" data-text="galery">galery</a>
-            <a href="#" data-text="portfolio">portfolio</a>
-            <a href="#" data-text="blogs">blogs</a>
-            <a href="#" data-text="contact">contact</a>
-
+        <nav>
+            <ul class="navigation">
+                <li class="navbar"><a href="#">Home</a></li>
+                <li class="navbar"><a href="#about_me">About me</a></li>
+                <li class="navbar"><a href="#my_skills">Skills</a></li>
+                <li class="navbar"><a href="#c_e">Code Example</a></li>
+                <li class="navbar"><a href="#portf">Portfolio</a></li>
+                <li class="navbar"><a href="#educat">Education</a></li>
+            </ul>
         </nav>
-    </header>
-    <script>
+        <div class="name_and_photo">
+            <div id="Photo">
+                <img src="avatar.jpg" alt="Photo">
+            </div>
+            <div class="my_name">
+                <h1>Artyom Aleksikov</h1>
+                <h3>Junior Frontend Developer</h3>
+                <h4>Location: Russia, Volgograd.</h4>
+                <h4>Contacts:</h4>
+                <div class="contacts">
+                    <ul>
+                        <li><img alt = "Phone" src = "https://RTinIT.github.io/rsschool-cv/pho.png" width = "25px"> 8-919-799-1561, 8-917-648-8980</li>
+                        <li><img alt = "Discord" src = "https://RTinIT.github.io/rsschool-cv/dic.jpg" width = "25px"> rtinit \#7770</li>
+                        <li><img alt = "Email" src = "https://RTinIT.github.io/rsschool-cv/gmail.png" width = "25px"> fizrukaleksikov@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
 
-        document.querySelector('#menu-btn').onclick = () => {
-            document.querySelector('#menu-btn').classList.toggle('fa-times');
-            document.querySelector('.navbar').classList.toggle('active');
-        }
-    </script>
-    
+        </div>
+        
+       
+    </header>    
+    <main>
+        <div class="container">
+            <div class="about">
+                <h3 id="about_me">About me</h3>
+                <p>I'm an entury-level specialist and I don't have the work experience, but my goal is to become the best in this direction. I'm constantly in search of new opportunities for self-study. I'm purposeful, fast-learning, stress-resistant, responsible, honest and open.</p>
+            </div>
+            <div class="skills">
+                <h3 id="my_skills">Skills</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript Basic</li>
+                    <li>Git</li>
+                    <li>Markdown</li>
+                </ul>
+            </div>
+            <div class="code">
+                <h3 id="c_e" class="code__code_example">Code Example</h3>
+                <pre><code>
+                    <span class="comments"> // The Binary Search. </span>
+                    <span class="comments"> // There is an ordered Array.</span>
+                    <span class="var">const</span> <span class="varname">array</span>  = [1, 2, 3, 4, 5, 6, 7, 8, 9];      
+                    <span class="comments"> // Function decloration. </span>
+                    <span class="var">let</span> <span class="varname">binarySearch</span>  = <span class="var">function</span> (<span class="varname">numbers</span>, <span class="varname">element</span>) {
+                    <span class="comments"> // Setting the higher and lower Numbers.</span>    
+                        <span class="var">let</span> <span class="varname">low</span>  = 0;
+                        <span class="var">let</span> <span class="varname">high</span>  = <span class="varname">numbers</span>.<span class="method">length</span>  - 1;
+                    <span class="comments"> // Declaring a variable mid. </span>    
+                        <span class="var">let</span> <span class="varname">mid</span>;
+                    <span class="comments"> // Using while to compare with Element. </span> 
+                        <span class="circle">while</span> ( <span class="varname">low</span>  <= <span class="varname">high</span> ) {
+                    <span class="comments"> // Writing  a Formula to find the Middle of the Array. </span>
+                            <span class="varname">mid</span>  = <span class="method">Math</span>.<span class="method">round</span>((<span class="varname">high</span>  - <span class="varname">low</span>)/2) + <span class="varname">low</span>;
+
+                            <span class="circle">if</span> (<span class="varname">element</span> === <span class="varname">numbers</span>[<span class="varname">mid</span>]) {
+                                <span class="circle">return</span> <span class="varname">mid</span>;            
+                            } <span class="circle">else if</span> (<span class="varname">element</span> < <span class="varname">numbers</span>[<span class="varname">mid</span>]) {
+                                <span class="varname">high</span> = <span class="varname">mid</span> - 1;
+                            } <span class="circle">else if</span> (<span class="varname">element</span> > <span class="varname">numbers</span>[<span class="varname">mid</span>]) {
+                                <span class="varname">low</span> = <span class="varname">mid</span> + 1;
+                            }
+                        }
+                    <span class="comments"> //If there is not Element you're looking for that return -1.    </span>
+                        <span class="circle">return</span> -1;
+                    }
+
+                    <span class="varname">console</span>.<span class="method">log</span>(<span class="method">binarySearch</span>(<span class="var">array</span>, 7));
+                </code></pre>
+            </div>
+            <div class="portfolio">
+                <h3 id="portf">Portfolio</h3>
+                <p>My Works will be here:</p>
+                <ul>
+                    <li><a href="">RSSchool-CV</a></li>
+                </ul>
+            </div>
+            <div class="education">
+                <h3 id="educat">Education</h3>
+                <ul class="education">
+                    <li><a href="https://github.com/rolling-scopes-school/tasks/tree/master/stage0">Stage#0. Знакомство с профессией "JS/Front-end разработчик"</a>-in progress.</li>
+                </ul>
+                <h3>Languages</h3>
+                <ul>
+                    <li>Russian - Native.</li>
+                    <li>English - Pre-Intermediate(A2).</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer>
+        
+        <ul class="links">
+            <li> &#169; 2022</li>
+            <li> <a href="https://rs.school/js/"> RSSchool/JS</a></li>
+            <li><img src="https://rs.school/images/rs_school_js.svg" alt="Logo" width="100px"></li>
+            <li><a href="https://github.com/RTinIT">https://github.com/RTinIT</a></li>
+            
+        </ul>
+    </footer>   
 </body>
 </html>
