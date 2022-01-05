@@ -12,7 +12,7 @@ body {
     align-items: center;
 }
 header {
-    width: 70%;
+    width: 60%;
     background-color: lightsteelblue;
     border-right: 3px solid black;
     border-left: 3px solid black;
@@ -46,7 +46,10 @@ header {
     padding-top: 6px;
 }
 
+.phone_number, .discord, .email {
+    width: 25px;
 
+}
 #Photo img {
     border: 2px solid white;
     border-radius: 30%;
@@ -95,7 +98,7 @@ nav {
 }
 main {
     display: flex;
-    width: 70%;
+    width: 60%;
     background-color: lightsteelblue;
     justify-content: center;
     border-right: 3px solid black;
@@ -128,16 +131,19 @@ main {
 }
 
 footer {
-    width: 70%;
+    width: 60%;
     height: 200px;
     background-color: lightsteelblue;
    border: 3px solid black;
 }
 
+.rsschool-logo {
+    width: 100px;
+}
 .links {
     width: 100%;
     display: flex;
-    justify-content:space-around;
+    justify-content:space-evenly;
     
 
 }
