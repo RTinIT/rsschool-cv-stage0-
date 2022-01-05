@@ -63,14 +63,16 @@ header {
     height: 220px;
 
 }
-h1, h2, h3 {
 
+
+h1, h2, h3 {
+    
     margin-bottom: 10px;
 }
 
 .code__code_example {
     background-color: lightsteelblue;
-    padding-bottom: 40px;
+
 
 }
 
@@ -90,7 +92,6 @@ h4 {
 
 nav {
     width: 100%;
-
     display: flex;
     justify-content: center;
     background-color: black;
@@ -115,11 +116,22 @@ main {
 .about, .skills, .code, .portfolio, .education {
     width: 60%;
     margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
-
+.about h3 {
+    justify-content: center;
+}
 .skills {
     display: flex;
+
+
+}
+.skills ul {
+    display: flex;
+    justify-content: center;
 }
 .skills li {
     list-style: square;
@@ -134,7 +146,7 @@ footer {
     width: 60%;
     height: 200px;
     background-color: lightsteelblue;
-   border: 3px solid black;
+    border: 3px solid black;
 }
 
 .rsschool-logo {
@@ -173,4 +185,155 @@ li {
 }
 .circle {
     color: blueviolet;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1835px) {
+    .my_name {
+        font-size: small;
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    .my_name {
+        font-size: small;
+        width: 290px;
+    }
+}
+
+
+@media screen and (max-width: 1360px) {
+    .my_name {
+        font-size: 10px;
+
+    }
+    #Photo img {
+        width: 150px;
+        height: 150px;
+        
+    }
+    .name_and_photo {
+
+    }
+    nav {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: black;
+    }
+
+    .navigation li a {
+        color: black;
+        font-size: 5px;
+        margin: 5px 0;
+
+    }       
+  
+}
+@media screen and (max-width: 820px) {
+    .my_name {
+        font-size: 10px;
+        width: 290px;
+    }
+    .about {
+        font-size: small;
+        width: 90%;
+    }
+    h3 {
+        font-size: small;
+        text-align: center;
+    }
+    .skills {
+        display: block;
+        width: 90%;
+    }
+    .skills ul {
+        display: flex;
+        justify-content: center;
+    }
+    .skills ul li {
+        font-size: small;
+
+    }
+    .code {
+        font-size: 8px;
+        width: 90%;
+    }
+    .code h3 {
+        padding-bottom: 10px;
+    }
+    .portfolio {
+        font-size: small;
+        width: 90%;
+    }
+    .education {
+        font-size: small;
+        width: 90%;
+    }
+    
+    .links {
+        font-size: small;
+        width: 90%;
+    }
+}
+@media screen and (max-width: 770px) {
+    header, main, footer {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 670px) {
+    header, main, footer {
+        width: 85%;
+    }
+}
+@media screen and (max-width: 570px) {
+    header, main, footer {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    header, main, footer {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+
+    header, main, footer {
+        width: 98%;
+    }
+    h1 {
+        font-size: 15px;
+    }
+    .name_and_photo {
+        flex-direction: column;
+        align-items: center;
+    }
+    #Photo {
+        height: auto;
+    }
+    #Photo img {
+        width: 80px;
+        height: 80px;
+    }
+    .my_name {
+        height: 150px;
+    }
+    .my_name h2 {
+        font-size: small;
+    }
 }
